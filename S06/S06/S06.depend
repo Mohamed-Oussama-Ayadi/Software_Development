@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1677661487 source:c:\users\21626\desktop\2a\c++\s06\s06\main.cpp
+	<iostream>
+	<list>
+	<map>
+

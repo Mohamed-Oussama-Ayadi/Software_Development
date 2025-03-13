@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1446667744 source:c:\users\21626\desktop\2a\c++\s06\td4\main.cpp
+	<iostream>
+
+1677665228 source:c:\users\21626\desktop\2a\c++\s06\td4\src\ouvrage.cpp
+	"Ouvrage.h"
+
+1677665213 c:\users\21626\desktop\2a\c++\s06\td4\include\ouvrage.h
+	<iostream>
+	<string>
+

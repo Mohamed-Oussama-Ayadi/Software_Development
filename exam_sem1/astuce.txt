@@ -1,0 +1,38 @@
+//il y a score qui doit etre compris entre 50 et 100
+ void set_score(int score) {
+        if (score >= 50 && score <= 100) {
+            this->score = score;
+        } else {
+            std::cout << "Le score doit être compris entre 50 et 100." << std::endl;
+        }
+    }
+//surcharger avec operateur ==
+     class candidat 
+           bool operator==(int value) const {
+        return (score == value);
+    }
+   class application
+ void afficher_candidats_avec_score(int score) const {
+    for (std::vector<Candidat*>::const_iterator it = candidats.begin(); it != candidats.end(); ++it) {
+        if (**it == score) {
+            std::cout << "Candidat avec score " << score << ":" << std::endl;
+            std::cout << "Score : " << (*it)->get_score() << std::endl;
+        }
+    }
+}
+// Calculer et Afficher le nombre des recrues pour un poste donné
+          (typeid pour obtenir le type réel de chaque candidat. Si le type correspond à celui de Recrue, nous effectuons un static_cast pour convertir le pointeur de Candidat en pointeur de Recrue)
+      class application
+int nombre_recrues_pour_poste(const std::string& poste) const {
+        int count = 0;
+        for (const Candidat* candidat : candidats) {
+            if (typeid(*candidat) == typeid(Recrue)) {
+                const Recrue* recrue = static_cast<const Recrue*>(candidat);
+                if (recrue->get_poste() == poste) {
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+};

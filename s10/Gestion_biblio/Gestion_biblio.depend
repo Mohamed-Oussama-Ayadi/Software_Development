@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1446667744 source:c:\users\21626\desktop\2a\c++\s10\gestion_biblio\main.cpp
+	<iostream>
+
+1681291089 source:c:\users\21626\desktop\2a\c++\s10\gestion_biblio\src\abonne.cpp
+	"Abonne.h"
+
+1681291741 c:\users\21626\desktop\2a\c++\s10\gestion_biblio\include\abonne.h
+	<iostream>
+	<string>
+
+1681293405 source:c:\users\21626\desktop\2a\c++\s10\gestion_biblio\src\biblio.cpp
+	"Biblio.h"
+
+1681293417 c:\users\21626\desktop\2a\c++\s10\gestion_biblio\include\biblio.h
+	<vector>
+	"Abonne.h"
+	"Ouvrage.h"
+	<iostream>
+
+1681292018 c:\users\21626\desktop\2a\c++\s10\gestion_biblio\include\ouvrage.h
+	<iostream>
+	<string>
+
+1681292996 source:c:\users\21626\desktop\2a\c++\s10\gestion_biblio\src\livre.cpp
+	"Livre.h"
+
+1681292996 c:\users\21626\desktop\2a\c++\s10\gestion_biblio\include\livre.h
+	<string>
+	<Ouvrage.h>
+
+1681290999 source:c:\users\21626\desktop\2a\c++\s10\gestion_biblio\src\video.cpp
+	"Video.h"
+
+1681291709 c:\users\21626\desktop\2a\c++\s10\gestion_biblio\include\video.h
+	<Ouvrage.h>
+	<string>
+
+1681292098 source:c:\users\21626\desktop\2a\c++\s10\gestion_biblio\src\ouvrage.cpp
+	"Ouvrage.h"
+

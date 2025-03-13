@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1678267376 source:c:\users\21626\desktop\2a\c++\s07\s7\src\employe.cpp
+	"Employe.h"
+
+1678267376 c:\users\21626\desktop\2a\c++\s07\s7\include\employe.h
+	<iostream>
+	<string>
+
+1678267906 source:c:\users\21626\desktop\2a\c++\s07\s7\main.cpp
+	<iostream>
+	"Employe.h"
+	"Ouvrier.h"
+
+1678267616 c:\users\21626\desktop\2a\c++\s07\s7\include\ouvrier.h
+	<Employe.h>
+
+1678267642 source:c:\users\21626\desktop\2a\c++\s07\s7\src\ouvrier.cpp
+	"Ouvrier.h"
+	"Employe.h"
+

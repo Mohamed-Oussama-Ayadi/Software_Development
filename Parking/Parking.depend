@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1684190393 source:c:\users\21626\desktop\2a\c++\parking\main.cpp
+	<iostream>
+	"Abonnement.h"
+	"Carte.h"
+	"Gestion.h"
+	"Parking.h"
+
+1684163232 source:c:\users\21626\desktop\2a\c++\parking\src\abonnement.cpp
+	"Abonnement.h"
+
+1684158154 c:\users\21626\desktop\2a\c++\parking\include\abonnement.h
+	<iostream>
+	<Carte.h>
+	<string>
+
+1684157958 c:\users\21626\desktop\2a\c++\parking\include\carte.h
+	<iostream>
+
+1684158107 source:c:\users\21626\desktop\2a\c++\parking\src\carte.cpp
+	"Carte.h"
+
+1684190112 source:c:\users\21626\desktop\2a\c++\parking\src\parking.cpp
+	"Parking.h"
+
+1684190075 c:\users\21626\desktop\2a\c++\parking\include\parking.h
+	<iostream>
+	<vector>
+	"Carte.h"
+
+1684189917 source:c:\users\21626\desktop\2a\c++\parking\src\gestion.cpp
+	"Gestion.h"
+
+1684189790 c:\users\21626\desktop\2a\c++\parking\include\gestion.h
+	<iostream>
+	"Abonnement.h"
+	"Carte.h"
+	"Parking.h"
+	<typeinfo>
+

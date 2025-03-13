@@ -1,0 +1,1 @@
+void   set< nom_attribut > (Type_attribut  nom_varibale) {nom_attribut = nom_varibale;} 

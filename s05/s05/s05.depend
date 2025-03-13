@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1677062571 source:c:\users\21626\desktop\2a\c++\s05\s05\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	"fonctions.h"
+	"ecole.h"
+
+1677063271 source:c:\users\21626\desktop\2a\c++\s05\s05\ecoles.cpp
+	"fonctions.h"
+	"ecole.h"
+	<vector>
+	<algorithm>
+
+1677063681 c:\users\21626\desktop\2a\c++\s05\s05\fonctions.h
+	<iostream>
+	<vector>
+	<algorithm>
+	<string>
+
+1677063681 c:\users\21626\desktop\2a\c++\s05\s05\ecole.h
+	<iostream>
+	<vector>
+	<algorithm>
+	"fonctions.h"
+
+1677060921 source:c:\users\21626\desktop\2a\c++\s05\s05\fonctions.cpp
+	"fonctions.h"
+	"ecole.h"
+

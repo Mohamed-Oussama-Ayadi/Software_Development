@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1681287221 source:c:\users\21626\desktop\2a\c++\s10\banque\main.cpp
+	<iostream>
+	"compte.h"
+	"CompteCourant.h"
+	"CompteEpargne.h"
+	"banque.h"
+
+1680687358 c:\users\21626\desktop\2a\c++\s10\banque\include\compte.h
+
+1680692890 c:\users\21626\desktop\2a\c++\s10\banque\include\comptecourant.h
+	<compte.h>
+
+1680692890 c:\users\21626\desktop\2a\c++\s10\banque\include\compteepargne.h
+	<iostream>
+	<compte.h>
+
+1681287802 c:\users\21626\desktop\2a\c++\s10\banque\include\banque.h
+	<vector>
+	"CompteEpargne.h"
+	<iostream>
+	"compte.h"
+	"CompteCourant.h"
+	<string>
+
+1681287074 source:c:\users\21626\desktop\2a\c++\s10\banque\src\banque.cpp
+	"banque.h"
+
+1680693112 source:c:\users\21626\desktop\2a\c++\s10\banque\src\comptecourant.cpp
+	"CompteCourant.h"
+	<iostream>
+
+1680693244 source:c:\users\21626\desktop\2a\c++\s10\banque\src\compteepargne.cpp
+	"CompteEpargne.h"
+	<iostream>
+

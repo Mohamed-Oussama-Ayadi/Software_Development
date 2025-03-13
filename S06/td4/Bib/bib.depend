@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1677668711 source:c:\users\user\desktop\c++\bib\main.cpp
+	<iostream>
+	"ouvrage.h"
+	"bibliotheque.h"
+
+1677667657 source:c:\users\user\desktop\c++\bib\src\bibliotheque.cpp
+	"bibliotheque.h"
+	<iostream>
+
+1677666200 c:\users\user\desktop\c++\bib\include\bibliotheque.h
+	<list>
+	"ouvrage.h"
+
+1677663077 c:\users\user\desktop\c++\bib\include\ouvrage.h
+	<string>
+	<iostream>
+
+1677668802 source:c:\users\user\desktop\c++\bib\src\ouvrage.cpp
+	"ouvrage.h"
+

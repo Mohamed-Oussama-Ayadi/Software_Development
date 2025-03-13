@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1676458288 source:c:\users\21626\desktop\2a\c++\s04\td4\main.cpp
+	<iostream>
+	"notes.h"
+
+1676457546 source:c:\users\21626\desktop\2a\c++\s04\td4\notes.cpp
+	"notes.h"
+
+1676457530 c:\users\21626\desktop\2a\c++\s04\td4\notes.h
+	<iostream>
+
