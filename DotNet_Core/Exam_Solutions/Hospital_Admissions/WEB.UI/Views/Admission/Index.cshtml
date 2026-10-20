@@ -1,0 +1,67 @@
+﻿@model IEnumerable<ApplicationCore.Domain.Admission>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DateAdmission)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Desciption)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MotifAdmission)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NbJours)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.patientkey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.chambrekey)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateAdmission)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Desciption)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MotifAdmission)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NbJours)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.patientkey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.chambrekey)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink(linkText: "Details", actionName: "Details", controllerName: "Patient",
+                    routeValues: new { id = item.patientkey}, htmlAttributes: null)
+              |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
