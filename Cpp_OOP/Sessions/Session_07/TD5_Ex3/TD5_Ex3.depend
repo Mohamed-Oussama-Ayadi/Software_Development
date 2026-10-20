@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1681285836 source:c:\users\21626\desktop\2a\c++\s07\td5_ex3\main.cpp
+	<iostream>
+	"Compte.h"
+	"C_Courant.h"
+	"C_Epargne.h"
+	"Banque.h"
+
+1680687506 source:c:\users\21626\desktop\2a\c++\s07\td5_ex3\src\c_courant.cpp
+	"C_Courant.h"
+
+1680687494 c:\users\21626\desktop\2a\c++\s07\td5_ex3\include\c_courant.h
+	<iostream>
+	<Compte.h>
+
+1680686543 c:\users\21626\desktop\2a\c++\s07\td5_ex3\include\compte.h
+	<iostream>
+
+1680688884 source:c:\users\21626\desktop\2a\c++\s07\td5_ex3\src\c_epargne.cpp
+	"C_Epargne.h"
+
+1680688871 c:\users\21626\desktop\2a\c++\s07\td5_ex3\include\c_epargne.h
+	<iostream>
+	<Compte.h>
+
+1678273164 source:c:\users\21626\desktop\2a\c++\s07\td5_ex3\src\compte.cpp
+	"Compte.h"
+
+1680688804 source:c:\users\21626\desktop\2a\c++\s07\td5_ex3\src\banque.cpp
+	"Banque.h"
+
+1680689432 c:\users\21626\desktop\2a\c++\s07\td5_ex3\include\banque.h
+	<vector>
+	<iostream>
+	"Compte.h"
+	"C_Courant.h"
+	"C_Epargne.h"
+	<algorithm>
+

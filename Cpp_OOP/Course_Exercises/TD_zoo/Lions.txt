@@ -1,0 +1,4 @@
+lion: L004,carnivore,4.5
+les dates des vaccins:
+22/03/2018
+22/04/2018

@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1677362409 source:c:\users\21626\desktop\2a\c++\s04\ex5\main.cpp
+	<iostream>
+	"voyage.h"
+	"hebergement.h"
+
+1677362077 c:\users\21626\desktop\2a\c++\s04\ex5\voyage.h
+	<iostream>
+	<string>
+	"hebergement.h"
+
+1677362261 source:c:\users\21626\desktop\2a\c++\s04\ex5\hebergement.cpp
+	"hebergement.h"
+
+1677362231 c:\users\21626\desktop\2a\c++\s04\ex5\hebergement.h
+	<iostream>
+	<string>
+
+1677362472 source:c:\users\21626\desktop\2a\c++\s04\ex5\voyage.cpp
+	"voyage.h"
+	"hebergement.h"
+

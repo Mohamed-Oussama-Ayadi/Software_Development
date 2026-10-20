@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1676452175 source:c:\users\21626\desktop\2a\c++\s03\td2\fonction.cpp
+	<iostream>
+	"Fonctions.h"
+
+1676451837 c:\users\21626\desktop\2a\c++\s03\td2\fonctions.h
+
+1676451493 source:c:\users\21626\desktop\2a\c++\s03\td2\main.cpp
+	<iostream>
+	"Fonctions.h"
+	"banque.h"
+
+1676402653 c:\users\21626\desktop\2a\c++\s03\td2\banque.h
+	<iostream>
+	"Fonctions.h"
+	<string>
+

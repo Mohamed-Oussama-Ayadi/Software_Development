@@ -1,0 +1,47 @@
+todo    classe                                    code a ajouter
+
+todo1   SkieurBatchConfig                       @EnableBatchProcessing
+
+
+todo2   BatchLauncher                             @AllArgsConstructor
+
+todo3   Scheduler                                 @Scheduled(fixedDelay = 300000)
+
+
+todo4   SkieurReader                              private String names = "numSkieur,nomS,prenomS,dateNaissance,ville,typeAbon";
+
+
+todo5   SkieurFieldSetMapper                      fieldSet.readString(1) fieldSet.readString(2) fieldSet.readString(4) fieldSet.readString(5)
+
+
+todo6   SkieurProcessor                          
+
+if (skieur.getTypeAbon().equals("SEMESTRIEL"))
+		{
+			dateFinAbonnement = LocalDate.now().plusMonths(6);
+			prixAbon = new Float(300);  //  prix mensuel * 5 mois (un mois gratuit)
+		}
+		else if (skieur.getTypeAbon().equals("ANNUEL"))
+		{
+			dateFinAbonnement = LocalDate.now().plusYears(1);
+			prixAbon = new Float(600);  // prix mensuel * 10 mois (deux mois gratuit)
+
+		}
+
+
+
+		// créer et affecter l'abonnement au skieur
+		Abonnement abonnement = Abonnement.builder().numAbon(numAbonnement)
+				.typeAbon(TypeAbonnement.valueOf(skieur.getTypeAbon())).dateDebut(dateDebutAbonnement)
+				.dateFin(dateFinAbonnement).prixAbon(prixAbon).build();
+		skieur.setAbonnement(abonnement);
+
+
+TODo 7   SKieur                                          @OneToOne(cascade = CascadeType.ALL)
+
+todo8   SkieurWriter                                     skieurRepository.saveAll(skieurs);
+
+
+
+
+

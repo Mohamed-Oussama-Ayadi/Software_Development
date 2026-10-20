@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1446667744 source:c:\users\21626\desktop\2a\c++\s13\td6\main.cpp
+	<iostream>
+
+1683300101 source:c:\users\21626\desktop\2a\c++\s13\td6\src\note.cpp
+	"Note.h"
+
+1683301507 c:\users\21626\desktop\2a\c++\s13\td6\include\note.h
+	<iostream>
+	<string>
+

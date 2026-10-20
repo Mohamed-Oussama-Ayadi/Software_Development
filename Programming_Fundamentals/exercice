@@ -1,0 +1,39 @@
+#!/bin/bash
+while getopts "ms" opt; do
+  case $opt in
+    m)
+      test_password(){
+        read -p "Entrez un mot de passe fort : " pass
+        if [ ${#pass} -gt 6 ]
+        then 
+          echo "Le mot de passe est fort."
+        else
+          echo "Le mot de passe est faible."
+        fi
+      }
+      test_password 
+      ;;
+    s)
+      read -p "Entrez votre nom : " nom
+      saisie(){
+        echo "Nom : $1" >> $1
+        read -p "Entrez votre cin : " cin
+        echo "CIN : $cin" >> $1
+        read -p "Entrez votre moyenne : " moy
+        echo "Moyenne : $moy" >> $1
+      }
+      saisie $nom
+      formulaire(){
+        nbr=$(wc -l $1 )
+        echo "Le nombre de lignes est $nbr" >> 2A
+        cat 2A
+      }
+      formulaire $nom
+      ;;
+    \?)
+      echo "Option invalide: -$OPTARG" >&2
+      exit 1
+      ;;
+  esac
+done
+
